@@ -1,0 +1,475 @@
+                           System GLS Estimation Summary                           
+===================================================================================
+Estimator:                        GLS   Overall R-squared:                  -0.1409
+No. Equations.:                    16   McElroy's R-squared:                -0.0573
+No. Observations:               27164   Judge's (OLS) R-squared:            -0.1409
+Date:                Sun, Aug 16 2026   Berndt's R-squared:                 -15.572
+Time:                        15:26:37   Dhrymes's R-squared:                -0.1409
+                                        Cov. Estimator:                      robust
+                                        Num. Constraints:                      None
+                   Equation: aceites_grasas, Dependent Variable: w_aceites_grasas                   
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0064     0.0005    -11.981     0.0000     -0.0074     -0.0053
+ln_precio_azucar_dulces              0.0016     0.0002     9.5348     0.0000      0.0012      0.0019
+ln_precio_bebidas_alcoholicas       -0.0013     0.0004    -3.4126     0.0006     -0.0020     -0.0005
+ln_precio_bebidas_no_alcoholicas     0.0004     0.0003     1.3897     0.1646     -0.0002      0.0009
+ln_precio_cafe_te_infusiones        -0.0002     0.0002    -1.2913     0.1966     -0.0006      0.0001
+ln_precio_carnes_rojas              -0.0003     0.0002    -1.6664     0.0956     -0.0006   4.599e-05
+ln_precio_comida_fuera_hogar        -0.0009     0.0001    -6.0343     0.0000     -0.0012     -0.0006
+ln_precio_frutas                    -0.0013     0.0002    -7.5213     0.0000     -0.0016     -0.0010
+ln_precio_frutos_secos_semillas      0.0020     0.0003     7.6995     0.0000      0.0015      0.0025
+ln_precio_lacteos_huevos            -0.0008     0.0002    -5.0006     0.0000     -0.0010     -0.0005
+ln_precio_menestras                  0.0002     0.0001     1.3279     0.1842   -8.88e-05      0.0005
+ln_precio_menudencia_aves           -0.0001     0.0002    -0.6598     0.5094     -0.0004      0.0002
+ln_precio_pan_basico                 0.0008     0.0003     2.8125     0.0049      0.0002      0.0013
+ln_precio_pasteleria_dulce          -0.0005     0.0002    -2.3795     0.0173     -0.0009    -8.6e-05
+ln_precio_pescados_mariscos         -0.0007     0.0001    -4.9973     0.0000     -0.0010     -0.0004
+ln_precio_pollo_piezas              -0.0015     0.0001    -11.590     0.0000     -0.0018     -0.0013
+ln_precio_verduras_hortalizas       -0.0011     0.0004    -2.8283     0.0047     -0.0018     -0.0003
+const                                0.1208     0.0254     4.7470     0.0000      0.0709      0.1707
+ln_precio_aceites_grasas            -0.0166     0.0116    -1.4318     0.1522     -0.0392      0.0061
+                                                                                                    
+================
+  Instruments   
+----------------
+z_aceites_grasas
+                
+                    Equation: azucar_dulces, Dependent Variable: w_azucar_dulces                    
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                         0.0006     0.0008     0.7836     0.4333     -0.0009      0.0022
+ln_precio_aceites_grasas            -0.0060     0.0012    -5.0778     0.0000     -0.0084     -0.0037
+ln_precio_bebidas_alcoholicas       -0.0009     0.0004    -2.1847     0.0289     -0.0018  -9.681e-05
+ln_precio_bebidas_no_alcoholicas     0.0007     0.0004     1.8412     0.0656  -4.649e-05      0.0015
+ln_precio_cafe_te_infusiones        -0.0002     0.0002    -1.0383     0.2991     -0.0006      0.0002
+ln_precio_carnes_rojas               0.0004     0.0002     1.9094     0.0562  -1.011e-05      0.0008
+ln_precio_comida_fuera_hogar        -0.0005     0.0002    -2.8629     0.0042     -0.0009     -0.0002
+ln_precio_frutas                    -0.0011     0.0002    -5.3599     0.0000     -0.0015     -0.0007
+ln_precio_frutos_secos_semillas      0.0013     0.0003     3.9200     0.0001      0.0006      0.0019
+ln_precio_lacteos_huevos             0.0002     0.0002     0.8424     0.3995     -0.0002      0.0006
+ln_precio_menestras                  0.0007     0.0002     4.1147     0.0000      0.0004      0.0011
+ln_precio_menudencia_aves         6.741e-05     0.0002     0.3333     0.7389     -0.0003      0.0005
+ln_precio_pan_basico                 0.0017     0.0004     4.4186     0.0000      0.0009      0.0024
+ln_precio_pasteleria_dulce          -0.0003     0.0003    -1.0587     0.2897     -0.0009      0.0003
+ln_precio_pescados_mariscos         -0.0005     0.0002    -2.6441     0.0082     -0.0008     -0.0001
+ln_precio_pollo_piezas              -0.0005     0.0001    -3.3580     0.0008     -0.0008     -0.0002
+ln_precio_verduras_hortalizas        0.0017     0.0005     3.6989     0.0002      0.0008      0.0026
+const                                0.0790     0.0049     16.007     0.0000      0.0693      0.0886
+ln_precio_azucar_dulces              0.0024     0.0017     1.4340     0.1516     -0.0009      0.0057
+                                                                                                    
+===============
+  Instruments  
+---------------
+z_azucar_dulces
+               
+              Equation: bebidas_alcoholicas, Dependent Variable: w_bebidas_alcoholicas              
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0004  9.819e-05    -3.8411     0.0001     -0.0006     -0.0002
+ln_precio_aceites_grasas             0.0002     0.0002     1.0077     0.3136     -0.0002      0.0006
+ln_precio_azucar_dulces          -8.885e-05  2.618e-05    -3.3934     0.0007     -0.0001  -3.753e-05
+ln_precio_bebidas_no_alcoholicas     0.0001  3.722e-05     3.1377     0.0017   4.384e-05      0.0002
+ln_precio_cafe_te_infusiones     -3.697e-05  2.452e-05    -1.5076     0.1317  -8.503e-05   1.109e-05
+ln_precio_carnes_rojas           -2.139e-05    2.2e-05    -0.9720     0.3310  -6.451e-05   2.174e-05
+ln_precio_comida_fuera_hogar     -4.979e-05  3.086e-05    -1.6132     0.1067     -0.0001    1.07e-05
+ln_precio_frutas                 -2.918e-05  1.909e-05    -1.5283     0.1264  -6.659e-05    8.24e-06
+ln_precio_frutos_secos_semillas  -5.086e-05  2.773e-05    -1.8344     0.0666     -0.0001   3.481e-06
+ln_precio_lacteos_huevos          7.852e-06   1.86e-05     0.4220     0.6730  -2.861e-05   4.432e-05
+ln_precio_menestras              -5.207e-06  1.537e-05    -0.3388     0.7348  -3.533e-05   2.492e-05
+ln_precio_menudencia_aves         1.254e-05  1.713e-05     0.7324     0.4640  -2.102e-05   4.611e-05
+ln_precio_pan_basico                -0.0001  4.397e-05    -2.8161     0.0049     -0.0002  -3.764e-05
+ln_precio_pasteleria_dulce       -1.497e-05  2.694e-05    -0.5556     0.5785  -6.777e-05   3.783e-05
+ln_precio_pescados_mariscos      -7.007e-05  1.755e-05    -3.9937     0.0001     -0.0001  -3.568e-05
+ln_precio_pollo_piezas           -1.715e-05  1.591e-05    -1.0781     0.2810  -4.832e-05   1.403e-05
+ln_precio_verduras_hortalizas     1.848e-05  4.663e-05     0.3963     0.6919  -7.292e-05      0.0001
+const                                0.0021     0.0007     3.0164     0.0026      0.0007      0.0034
+ln_precio_bebidas_alcoholicas       -0.0001  6.124e-05    -2.2029     0.0276     -0.0003  -1.488e-05
+                                                                                                    
+=====================
+     Instruments     
+---------------------
+z_bebidas_alcoholicas
+                     
+           Equation: bebidas_no_alcoholicas, Dependent Variable: w_bebidas_no_alcoholicas           
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0151     0.0011    -14.355     0.0000     -0.0172     -0.0131
+ln_precio_aceites_grasas             0.0043     0.0008     5.5545     0.0000      0.0028      0.0058
+ln_precio_azucar_dulces             -0.0023     0.0002    -14.646     0.0000     -0.0026     -0.0020
+ln_precio_bebidas_alcoholicas       -0.0007     0.0004    -1.6303     0.1030     -0.0015      0.0001
+ln_precio_cafe_te_infusiones        -0.0005     0.0001    -4.3320     0.0000     -0.0007     -0.0003
+ln_precio_carnes_rojas              -0.0024     0.0002    -12.897     0.0000     -0.0028     -0.0020
+ln_precio_comida_fuera_hogar        -0.0017     0.0002    -10.842     0.0000     -0.0020     -0.0014
+ln_precio_frutas                    -0.0003     0.0001    -1.8348     0.0665     -0.0006   1.836e-05
+ln_precio_frutos_secos_semillas     -0.0014     0.0002    -6.5408     0.0000     -0.0018     -0.0010
+ln_precio_lacteos_huevos            -0.0012     0.0001    -9.1029     0.0000     -0.0014     -0.0009
+ln_precio_menestras                 -0.0004     0.0001    -4.4265     0.0000     -0.0006     -0.0002
+ln_precio_menudencia_aves            0.0003     0.0001     2.4452     0.0145   5.477e-05      0.0005
+ln_precio_pan_basico                -0.0040     0.0003    -15.854     0.0000     -0.0045     -0.0035
+ln_precio_pasteleria_dulce          -0.0012     0.0002    -7.3563     0.0000     -0.0015     -0.0009
+ln_precio_pescados_mariscos         -0.0018     0.0001    -12.652     0.0000     -0.0021     -0.0015
+ln_precio_pollo_piezas               0.0003  9.857e-05     2.5536     0.0107   5.852e-05      0.0004
+ln_precio_verduras_hortalizas       -0.0022     0.0004    -6.1639     0.0000     -0.0029     -0.0015
+const                                0.0896     0.0056     15.855     0.0000      0.0785      0.1006
+ln_precio_bebidas_no_alcoholicas    -0.0106     0.0011    -9.4564     0.0000     -0.0128     -0.0084
+                                                                                                    
+========================
+      Instruments       
+------------------------
+z_bebidas_no_alcoholicas
+                        
+               Equation: cafe_te_infusiones, Dependent Variable: w_cafe_te_infusiones               
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0004     0.0008    -0.4454     0.6560     -0.0019      0.0012
+ln_precio_aceites_grasas            -0.0039     0.0025    -1.5542     0.1201     -0.0087      0.0010
+ln_precio_azucar_dulces             -0.0002     0.0002    -0.9809     0.3266     -0.0007      0.0002
+ln_precio_bebidas_alcoholicas        0.0014     0.0005     2.6547     0.0079      0.0004      0.0024
+ln_precio_bebidas_no_alcoholicas     0.0003     0.0002     1.5638     0.1179  -8.728e-05      0.0008
+ln_precio_carnes_rojas            5.696e-05     0.0004     0.1323     0.8948     -0.0008      0.0009
+ln_precio_comida_fuera_hogar         0.0004     0.0001     3.4267     0.0006      0.0002      0.0006
+ln_precio_frutas                    -0.0005     0.0006    -0.8612     0.3891     -0.0018      0.0007
+ln_precio_frutos_secos_semillas     -0.0004     0.0002    -1.6587     0.0972     -0.0008   6.921e-05
+ln_precio_lacteos_huevos            -0.0002     0.0003    -0.7461     0.4556     -0.0007      0.0003
+ln_precio_menestras                 -0.0002     0.0008    -0.2932     0.7694     -0.0018      0.0013
+ln_precio_menudencia_aves         1.652e-05     0.0003     0.0578     0.9539     -0.0005      0.0006
+ln_precio_pan_basico                -0.0015     0.0006    -2.6469     0.0081     -0.0026     -0.0004
+ln_precio_pasteleria_dulce           0.0006     0.0002     3.5384     0.0004      0.0003      0.0009
+ln_precio_pescados_mariscos         -0.0003     0.0001    -2.3744     0.0176     -0.0005  -4.822e-05
+ln_precio_pollo_piezas              -0.0002     0.0004    -0.5380     0.5905     -0.0011      0.0006
+ln_precio_verduras_hortalizas       -0.0015     0.0020    -0.7427     0.4577     -0.0055      0.0025
+const                                0.0380     0.0133     2.8679     0.0041      0.0120      0.0641
+ln_precio_cafe_te_infusiones         0.0041     0.0103     0.4014     0.6881     -0.0161      0.0243
+                                                                                                    
+====================
+    Instruments     
+--------------------
+z_cafe_te_infusiones
+                    
+                     Equation: carnes_rojas, Dependent Variable: w_carnes_rojas                     
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0147     0.0017    -8.8252     0.0000     -0.0180     -0.0115
+ln_precio_aceites_grasas             0.0036     0.0020     1.7927     0.0730     -0.0003      0.0075
+ln_precio_azucar_dulces             -0.0009     0.0003    -2.8965     0.0038     -0.0016     -0.0003
+ln_precio_bebidas_alcoholicas        0.0053     0.0008     6.9727     0.0000      0.0038      0.0068
+ln_precio_bebidas_no_alcoholicas    -0.0026     0.0006    -4.0499     0.0001     -0.0039     -0.0013
+ln_precio_cafe_te_infusiones         0.0024     0.0004     6.4360     0.0000      0.0016      0.0031
+ln_precio_comida_fuera_hogar         0.0017     0.0003     5.0965     0.0000      0.0010      0.0023
+ln_precio_frutas                     0.0005     0.0003     1.4958     0.1347     -0.0002      0.0012
+ln_precio_frutos_secos_semillas     -0.0034     0.0005    -6.3278     0.0000     -0.0045     -0.0024
+ln_precio_lacteos_huevos            -0.0002     0.0003    -0.5338     0.5935     -0.0008      0.0004
+ln_precio_menestras                  0.0005     0.0004     1.3071     0.1912     -0.0003      0.0013
+ln_precio_menudencia_aves            0.0034     0.0005     6.6799     0.0000      0.0024      0.0044
+ln_precio_pan_basico                -0.0022     0.0006    -4.0453     0.0001     -0.0033     -0.0012
+ln_precio_pasteleria_dulce           0.0011     0.0004     2.5293     0.0114      0.0002      0.0019
+ln_precio_pescados_mariscos          0.0018     0.0003     5.7928     0.0000      0.0012      0.0024
+ln_precio_pollo_piezas               0.0044     0.0003     15.945     0.0000      0.0039      0.0050
+ln_precio_verduras_hortalizas       -0.0085     0.0007    -11.800     0.0000     -0.0099     -0.0071
+const                                0.1794     0.0118     15.196     0.0000      0.1563      0.2025
+ln_precio_carnes_rojas              -0.0159     0.0022    -7.2031     0.0000     -0.0202     -0.0115
+                                                                                                    
+==============
+ Instruments  
+--------------
+z_carnes_rojas
+              
+               Equation: comida_fuera_hogar, Dependent Variable: w_comida_fuera_hogar               
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0117     0.0011    -11.023     0.0000     -0.0138     -0.0096
+ln_precio_aceites_grasas             0.0167     0.0021     7.9436     0.0000      0.0126      0.0208
+ln_precio_azucar_dulces             -0.0026     0.0003    -8.6885     0.0000     -0.0031     -0.0020
+ln_precio_bebidas_alcoholicas        0.0060     0.0008     7.4968     0.0000      0.0044      0.0075
+ln_precio_bebidas_no_alcoholicas     0.0016     0.0006     2.8824     0.0039      0.0005      0.0027
+ln_precio_cafe_te_infusiones        -0.0010     0.0003    -4.0288     0.0001     -0.0015     -0.0005
+ln_precio_carnes_rojas              -0.0036     0.0003    -12.122     0.0000     -0.0041     -0.0030
+ln_precio_frutas                     0.0013     0.0003     4.9004     0.0000      0.0008      0.0019
+ln_precio_frutos_secos_semillas     -0.0036     0.0004    -9.0237     0.0000     -0.0044     -0.0028
+ln_precio_lacteos_huevos            -0.0001     0.0002    -0.6074     0.5436     -0.0006      0.0003
+ln_precio_menestras                 -0.0003     0.0002    -1.4734     0.1406     -0.0008      0.0001
+ln_precio_menudencia_aves            0.0004     0.0003     1.5138     0.1301     -0.0001      0.0009
+ln_precio_pan_basico                -0.0036     0.0004    -9.2954     0.0000     -0.0044     -0.0028
+ln_precio_pasteleria_dulce           0.0002     0.0004     0.5223     0.6014     -0.0006      0.0010
+ln_precio_pescados_mariscos         -0.0014     0.0003    -5.5520     0.0000     -0.0019     -0.0009
+ln_precio_pollo_piezas               0.0015     0.0002     6.7559     0.0000      0.0011      0.0020
+ln_precio_verduras_hortalizas       -0.0006     0.0006    -1.0629     0.2878     -0.0017      0.0005
+const                                0.0357     0.0071     5.0033     0.0000      0.0217      0.0497
+ln_precio_comida_fuera_hogar        -0.0154     0.0011    -13.396     0.0000     -0.0177     -0.0131
+                                                                                                    
+====================
+    Instruments     
+--------------------
+z_comida_fuera_hogar
+                    
+                           Equation: frutas, Dependent Variable: w_frutas                           
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0128     0.0012    -10.722     0.0000     -0.0151     -0.0105
+ln_precio_aceites_grasas             0.0176     0.0013     13.108     0.0000      0.0149      0.0202
+ln_precio_azucar_dulces             -0.0034     0.0002    -14.266     0.0000     -0.0038     -0.0029
+ln_precio_bebidas_alcoholicas        0.0024     0.0006     4.2498     0.0000      0.0013      0.0036
+ln_precio_bebidas_no_alcoholicas     0.0007     0.0005     1.5802     0.1141     -0.0002      0.0017
+ln_precio_cafe_te_infusiones         0.0004     0.0002     1.6797     0.0930  -6.912e-05      0.0009
+ln_precio_carnes_rojas              -0.0012     0.0003    -4.8697     0.0000     -0.0017     -0.0007
+ln_precio_comida_fuera_hogar         0.0002     0.0002     0.9189     0.3582     -0.0002      0.0007
+ln_precio_frutos_secos_semillas  -6.459e-05     0.0004    -0.1780     0.8587     -0.0008      0.0006
+ln_precio_lacteos_huevos             0.0001     0.0002     0.5200     0.6031     -0.0003      0.0005
+ln_precio_menestras                  0.0011     0.0003     4.0256     0.0001      0.0006      0.0016
+ln_precio_menudencia_aves            0.0011     0.0003     4.2526     0.0000      0.0006      0.0016
+ln_precio_pan_basico                -0.0049     0.0004    -12.107     0.0000     -0.0057     -0.0041
+ln_precio_pasteleria_dulce           0.0019     0.0003     5.6432     0.0000      0.0012      0.0025
+ln_precio_pescados_mariscos         -0.0005     0.0002    -2.4292     0.0151     -0.0009     -0.0001
+ln_precio_pollo_piezas               0.0019     0.0002     10.069     0.0000      0.0015      0.0023
+ln_precio_verduras_hortalizas        0.0010     0.0007     1.4006     0.1613     -0.0004      0.0023
+const                                0.0911     0.0070     12.988     0.0000      0.0774      0.1049
+ln_precio_frutas                    -0.0131     0.0015    -8.4979     0.0000     -0.0161     -0.0101
+                                                                                                    
+===========
+Instruments
+-----------
+   z_frutas
+           
+            Equation: frutos_secos_semillas, Dependent Variable: w_frutos_secos_semillas            
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                         0.0003     0.0001     3.2158     0.0013      0.0001      0.0005
+ln_precio_aceites_grasas             0.0025     0.0004     5.8816     0.0000      0.0017      0.0034
+ln_precio_azucar_dulces          -4.011e-05  3.475e-05    -1.1542     0.2484     -0.0001     2.8e-05
+ln_precio_bebidas_alcoholicas        0.0001     0.0001     1.4180     0.1562  -5.537e-05      0.0003
+ln_precio_bebidas_no_alcoholicas -2.392e-05  6.903e-05    -0.3466     0.7289     -0.0002      0.0001
+ln_precio_cafe_te_infusiones     -8.032e-05  3.861e-05    -2.0800     0.0375     -0.0002  -4.635e-06
+ln_precio_carnes_rojas            1.152e-05   3.23e-05     0.3567     0.7213  -5.178e-05   7.482e-05
+ln_precio_comida_fuera_hogar     -1.205e-05  3.368e-05    -0.3578     0.7205  -7.806e-05   5.396e-05
+ln_precio_frutas                   7.52e-05   3.03e-05     2.4822     0.0131   1.582e-05      0.0001
+ln_precio_lacteos_huevos          9.738e-05  3.605e-05     2.7013     0.0069   2.672e-05      0.0002
+ln_precio_menestras              -3.014e-05  3.173e-05    -0.9497     0.3422  -9.233e-05   3.205e-05
+ln_precio_menudencia_aves            0.0001  3.216e-05     3.1611     0.0016   3.862e-05      0.0002
+ln_precio_pan_basico              9.145e-05  4.883e-05     1.8728     0.0611  -4.257e-06      0.0002
+ln_precio_pasteleria_dulce           0.0002  5.528e-05     2.8091     0.0050   4.694e-05      0.0003
+ln_precio_pescados_mariscos       5.334e-05  3.165e-05     1.6850     0.0920  -8.704e-06      0.0001
+ln_precio_pollo_piezas               0.0001  2.831e-05     4.0707     0.0000   5.975e-05      0.0002
+ln_precio_verduras_hortalizas     3.671e-05  6.591e-05     0.5570     0.5775  -9.248e-05      0.0002
+const                               -0.0050     0.0011    -4.6809     0.0000     -0.0070     -0.0029
+ln_precio_frutos_secos_semillas      0.0002  7.065e-05     2.3367     0.0195   2.661e-05      0.0003
+                                                                                                    
+=======================
+      Instruments      
+-----------------------
+z_frutos_secos_semillas
+                       
+                   Equation: lacteos_huevos, Dependent Variable: w_lacteos_huevos                   
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0007     0.0010    -0.7355     0.4620     -0.0027      0.0012
+ln_precio_aceites_grasas             0.0153     0.0016     9.7213     0.0000      0.0122      0.0184
+ln_precio_azucar_dulces             -0.0021     0.0003    -7.8523     0.0000     -0.0026     -0.0016
+ln_precio_bebidas_alcoholicas        0.0055     0.0006     9.8899     0.0000      0.0044      0.0066
+ln_precio_bebidas_no_alcoholicas -7.324e-05     0.0005    -0.1540     0.8776     -0.0010      0.0009
+ln_precio_cafe_te_infusiones         0.0008     0.0003     3.3669     0.0008      0.0004      0.0013
+ln_precio_carnes_rojas              -0.0007     0.0003    -2.8579     0.0043     -0.0012     -0.0002
+ln_precio_comida_fuera_hogar         0.0011     0.0002     4.6509     0.0000      0.0007      0.0016
+ln_precio_frutas                     0.0013     0.0002     5.5105     0.0000      0.0008      0.0018
+ln_precio_frutos_secos_semillas     -0.0018     0.0004    -4.9416     0.0000     -0.0025     -0.0011
+ln_precio_menestras                  0.0002     0.0002     0.8168     0.4141     -0.0002      0.0006
+ln_precio_menudencia_aves            0.0009     0.0002     3.5227     0.0004      0.0004      0.0013
+ln_precio_pan_basico                -0.0020     0.0005    -4.3412     0.0000     -0.0029     -0.0011
+ln_precio_pasteleria_dulce           0.0012     0.0003     3.8488     0.0001      0.0006      0.0018
+ln_precio_pescados_mariscos          0.0002     0.0002     0.9206     0.3572     -0.0003      0.0007
+ln_precio_pollo_piezas               0.0030     0.0002     12.805     0.0000      0.0025      0.0034
+ln_precio_verduras_hortalizas        0.0003     0.0005     0.5711     0.5679     -0.0007      0.0012
+const                                0.0104     0.0053     1.9504     0.0511  -5.143e-05      0.0209
+ln_precio_lacteos_huevos            -0.0105     0.0022    -4.6648     0.0000     -0.0149     -0.0061
+                                                                                                    
+================
+  Instruments   
+----------------
+z_lacteos_huevos
+                
+                        Equation: menestras, Dependent Variable: w_menestras                        
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                         0.0050     0.0003     15.986     0.0000      0.0044      0.0056
+ln_precio_aceites_grasas            -0.0010     0.0007    -1.4414     0.1495     -0.0024      0.0004
+ln_precio_azucar_dulces              0.0006     0.0001     5.1802     0.0000      0.0004      0.0009
+ln_precio_bebidas_alcoholicas    -6.295e-05     0.0003    -0.2017     0.8401     -0.0007      0.0005
+ln_precio_bebidas_no_alcoholicas     0.0008     0.0002     3.6683     0.0002      0.0004      0.0012
+ln_precio_cafe_te_infusiones         0.0005     0.0002     3.2312     0.0012      0.0002      0.0008
+ln_precio_carnes_rojas               0.0010     0.0002     6.2638     0.0000      0.0007      0.0013
+ln_precio_comida_fuera_hogar       4.44e-06     0.0001     0.0417     0.9667     -0.0002      0.0002
+ln_precio_frutas                     0.0004     0.0002     2.5975     0.0094      0.0001      0.0008
+ln_precio_frutos_secos_semillas      0.0009     0.0003     3.0881     0.0020      0.0003      0.0014
+ln_precio_lacteos_huevos            -0.0002     0.0001    -1.6722     0.0945     -0.0004   3.323e-05
+ln_precio_menudencia_aves           -0.0001     0.0002    -0.7894     0.4299     -0.0005      0.0002
+ln_precio_pan_basico                 0.0018     0.0002     7.9481     0.0000      0.0014      0.0023
+ln_precio_pasteleria_dulce           0.0002     0.0002     1.1193     0.2630     -0.0001      0.0005
+ln_precio_pescados_mariscos          0.0002     0.0001     2.0414     0.0412   9.468e-06      0.0005
+ln_precio_pollo_piezas            1.549e-05  9.509e-05     0.1629     0.8706     -0.0002      0.0002
+ln_precio_verduras_hortalizas       -0.0016     0.0003    -5.8201     0.0000     -0.0021     -0.0011
+const                                0.0108     0.0029     3.7902     0.0002      0.0052      0.0165
+ln_precio_menestras                  0.0018     0.0007     2.4505     0.0143      0.0004      0.0033
+                                                                                                    
+===========
+Instruments
+-----------
+z_menestras
+           
+                  Equation: menudencia_aves, Dependent Variable: w_menudencia_aves                  
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0008     0.0002    -5.0952     0.0000     -0.0012     -0.0005
+ln_precio_aceites_grasas            -0.0028     0.0003    -8.0419     0.0000     -0.0035     -0.0021
+ln_precio_azucar_dulces             -0.0002  5.785e-05    -2.9839     0.0028     -0.0003  -5.923e-05
+ln_precio_bebidas_alcoholicas       -0.0008     0.0001    -6.3294     0.0000     -0.0010     -0.0005
+ln_precio_bebidas_no_alcoholicas    -0.0002     0.0001    -1.9601     0.0500     -0.0004  -1.851e-08
+ln_precio_cafe_te_infusiones        -0.0002  5.597e-05    -3.9499     0.0001     -0.0003     -0.0001
+ln_precio_carnes_rojas              -0.0001  6.125e-05    -2.2639     0.0236     -0.0003  -1.861e-05
+ln_precio_comida_fuera_hogar        -0.0001  5.268e-05    -2.4853     0.0129     -0.0002  -2.767e-05
+ln_precio_frutas                    -0.0001  5.772e-05    -2.0089     0.0445     -0.0002  -2.827e-06
+ln_precio_frutos_secos_semillas     -0.0003  7.911e-05    -3.7860     0.0002     -0.0005     -0.0001
+ln_precio_lacteos_huevos         -7.271e-05  4.643e-05    -1.5660     0.1174     -0.0002   1.829e-05
+ln_precio_menestras                 -0.0001  5.322e-05    -2.5784     0.0099     -0.0002  -3.292e-05
+ln_precio_pan_basico                -0.0007  9.333e-05    -7.2498     0.0000     -0.0009     -0.0005
+ln_precio_pasteleria_dulce          -0.0002  5.816e-05    -2.7824     0.0054     -0.0003  -4.783e-05
+ln_precio_pescados_mariscos          0.0001  4.739e-05     3.1115     0.0019   5.457e-05      0.0002
+ln_precio_pollo_piezas              -0.0005  4.693e-05    -11.243     0.0000     -0.0006     -0.0004
+ln_precio_verduras_hortalizas       -0.0009     0.0001    -7.1482     0.0000     -0.0012     -0.0007
+const                                0.0156     0.0012     13.069     0.0000      0.0133      0.0179
+ln_precio_menudencia_aves            0.0009     0.0002     4.2102     0.0000      0.0005      0.0014
+                                                                                                    
+=================
+   Instruments   
+-----------------
+z_menudencia_aves
+                 
+                       Equation: pan_basico, Dependent Variable: w_pan_basico                       
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                         0.0349     0.0015     23.778     0.0000      0.0320      0.0378
+ln_precio_aceites_grasas            -0.0390     0.0036    -10.735     0.0000     -0.0461     -0.0319
+ln_precio_azucar_dulces              0.0022     0.0006     3.5690     0.0004      0.0010      0.0034
+ln_precio_bebidas_alcoholicas       -0.0070     0.0010    -6.7765     0.0000     -0.0090     -0.0050
+ln_precio_bebidas_no_alcoholicas     0.0022     0.0008     2.6417     0.0082      0.0006      0.0038
+ln_precio_cafe_te_infusiones        -0.0033     0.0006    -5.9280     0.0000     -0.0043     -0.0022
+ln_precio_carnes_rojas               0.0029     0.0005     5.7040     0.0000      0.0019      0.0039
+ln_precio_comida_fuera_hogar        -0.0005     0.0004    -1.0872     0.2770     -0.0013      0.0004
+ln_precio_frutas                    -0.0036     0.0005    -6.7950     0.0000     -0.0046     -0.0025
+ln_precio_frutos_secos_semillas     -0.0005     0.0010    -0.5120     0.6087     -0.0025      0.0015
+ln_precio_lacteos_huevos            -0.0023     0.0006    -3.6593     0.0003     -0.0035     -0.0011
+ln_precio_menestras                 -0.0029     0.0007    -4.1295     0.0000     -0.0042     -0.0015
+ln_precio_menudencia_aves           -0.0019     0.0005    -4.1153     0.0000     -0.0028     -0.0010
+ln_precio_pasteleria_dulce          -0.0070     0.0007    -9.8237     0.0000     -0.0084     -0.0056
+ln_precio_pescados_mariscos         -0.0006     0.0004    -1.3867     0.1655     -0.0014      0.0002
+ln_precio_pollo_piezas              -0.0069     0.0004    -15.611     0.0000     -0.0078     -0.0061
+ln_precio_verduras_hortalizas       -0.0071     0.0016    -4.4273     0.0000     -0.0103     -0.0040
+const                                0.2719     0.0107     25.489     0.0000      0.2510      0.2928
+ln_precio_pan_basico                 0.0992     0.0070     14.181     0.0000      0.0855      0.1129
+                                                                                                    
+============
+Instruments 
+------------
+z_pan_basico
+            
+                 Equation: pasteleria_dulce, Dependent Variable: w_pasteleria_dulce                 
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0009     0.0003    -3.4265     0.0006     -0.0014     -0.0004
+ln_precio_aceites_grasas             0.0012     0.0005     2.6560     0.0079      0.0003      0.0022
+ln_precio_azucar_dulces             -0.0006  8.437e-05    -7.0211     0.0000     -0.0008     -0.0004
+ln_precio_bebidas_alcoholicas        0.0008     0.0002     3.4452     0.0006      0.0003      0.0012
+ln_precio_bebidas_no_alcoholicas     0.0004     0.0001     2.4318     0.0150   6.961e-05      0.0006
+ln_precio_cafe_te_infusiones     -1.157e-05  7.618e-05    -0.1519     0.8793     -0.0002      0.0001
+ln_precio_carnes_rojas              -0.0003  8.529e-05    -4.0328     0.0001     -0.0005     -0.0002
+ln_precio_comida_fuera_hogar     -6.712e-05  8.679e-05    -0.7733     0.4393     -0.0002      0.0001
+ln_precio_frutas                     0.0001  7.645e-05     1.6228     0.1046  -2.577e-05      0.0003
+ln_precio_frutos_secos_semillas   4.773e-05     0.0001     0.4142     0.6788     -0.0002      0.0003
+ln_precio_lacteos_huevos          6.734e-05  7.328e-05     0.9189     0.3581  -7.629e-05      0.0002
+ln_precio_menestras                  0.0002  6.974e-05     2.2355     0.0254   1.921e-05      0.0003
+ln_precio_menudencia_aves         6.912e-05  7.865e-05     0.8788     0.3795  -8.504e-05      0.0002
+ln_precio_pan_basico                -0.0009     0.0001    -7.9976     0.0000     -0.0011     -0.0007
+ln_precio_pescados_mariscos         -0.0001  7.086e-05    -2.1112     0.0348     -0.0003  -1.072e-05
+ln_precio_pollo_piezas               0.0002  6.546e-05     2.2999     0.0215   2.225e-05      0.0003
+ln_precio_verduras_hortalizas        0.0003     0.0002     1.6739     0.0941  -4.339e-05      0.0006
+const                                0.0064     0.0019     3.4438     0.0006      0.0027      0.0100
+ln_precio_pasteleria_dulce       -2.871e-05     0.0003    -0.0826     0.9342     -0.0007      0.0007
+                                                                                                    
+==================
+   Instruments    
+------------------
+z_pasteleria_dulce
+                  
+                Equation: pescados_mariscos, Dependent Variable: w_pescados_mariscos                
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0090     0.0013    -6.8363     0.0000     -0.0116     -0.0064
+ln_precio_aceites_grasas             0.0035     0.0016     2.1594     0.0308      0.0003      0.0066
+ln_precio_azucar_dulces              0.0003     0.0002     1.0462     0.2955     -0.0002      0.0007
+ln_precio_bebidas_alcoholicas       -0.0061     0.0006    -10.313     0.0000     -0.0072     -0.0049
+ln_precio_bebidas_no_alcoholicas    -0.0052     0.0005    -9.9344     0.0000     -0.0062     -0.0041
+ln_precio_cafe_te_infusiones         0.0008     0.0003     3.1735     0.0015      0.0003      0.0013
+ln_precio_carnes_rojas              -0.0010     0.0003    -3.9282     0.0001     -0.0015     -0.0005
+ln_precio_comida_fuera_hogar        -0.0005     0.0003    -1.9635     0.0496     -0.0010   -9.06e-07
+ln_precio_frutas                     0.0005     0.0002     2.2685     0.0233   7.478e-05      0.0010
+ln_precio_frutos_secos_semillas     -0.0015     0.0004    -3.9604     0.0001     -0.0022     -0.0007
+ln_precio_lacteos_huevos             0.0005     0.0003     1.9919     0.0464   8.175e-06      0.0010
+ln_precio_menestras                  0.0002     0.0002     0.8071     0.4196     -0.0003      0.0006
+ln_precio_menudencia_aves           -0.0006     0.0003    -2.3094     0.0209     -0.0012  -9.777e-05
+ln_precio_pan_basico                -0.0010     0.0004    -2.7460     0.0060     -0.0018     -0.0003
+ln_precio_pasteleria_dulce          -0.0005     0.0003    -1.6419     0.1006     -0.0012      0.0001
+ln_precio_pollo_piezas            8.124e-05     0.0002     0.3964     0.6918     -0.0003      0.0005
+ln_precio_verduras_hortalizas       -0.0038     0.0006    -6.3834     0.0000     -0.0050     -0.0027
+const                                0.0913     0.0070     13.060     0.0000      0.0776      0.1050
+ln_precio_pescados_mariscos         -0.0211     0.0026    -7.9647     0.0000     -0.0262     -0.0159
+                                                                                                    
+===================
+    Instruments    
+-------------------
+z_pescados_mariscos
+                   
+                     Equation: pollo_piezas, Dependent Variable: w_pollo_piezas                     
+====================================================================================================
+                                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+----------------------------------------------------------------------------------------------------
+ln_X_sobre_P                        -0.0031     0.0004    -6.9058     0.0000     -0.0040     -0.0022
+ln_precio_aceites_grasas             0.0040     0.0010     4.0661     0.0000      0.0021      0.0059
+ln_precio_azucar_dulces           1.447e-05     0.0001     0.1013     0.9193     -0.0003      0.0003
+ln_precio_bebidas_alcoholicas       -0.0006     0.0004    -1.4908     0.1360     -0.0015      0.0002
+ln_precio_bebidas_no_alcoholicas    -0.0003     0.0003    -1.2795     0.2007     -0.0009      0.0002
+ln_precio_cafe_te_infusiones         0.0001     0.0002     0.7657     0.4438     -0.0002      0.0004
+ln_precio_carnes_rojas              -0.0014     0.0002    -8.9536     0.0000     -0.0017     -0.0011
+ln_precio_comida_fuera_hogar        -0.0010     0.0002    -6.1893     0.0000     -0.0013     -0.0007
+ln_precio_frutas                    -0.0004     0.0002    -2.4561     0.0140     -0.0007  -7.883e-05
+ln_precio_frutos_secos_semillas     -0.0016     0.0002    -7.0870     0.0000     -0.0020     -0.0012
+ln_precio_lacteos_huevos            -0.0006     0.0001    -3.8871     0.0001     -0.0008     -0.0003
+ln_precio_menestras                 -0.0003     0.0001    -2.5002     0.0124     -0.0006  -6.669e-05
+ln_precio_menudencia_aves           -0.0004     0.0002    -2.5290     0.0114     -0.0007  -8.544e-05
+ln_precio_pan_basico                -0.0035     0.0003    -14.157     0.0000     -0.0040     -0.0031
+ln_precio_pasteleria_dulce        5.448e-05     0.0002     0.2740     0.7841     -0.0003      0.0004
+ln_precio_pescados_mariscos         -0.0004     0.0001    -3.2966     0.0010     -0.0007     -0.0002
+ln_precio_verduras_hortalizas       -0.0005     0.0003    -1.5938     0.1110     -0.0011      0.0001
+const                                0.0357     0.0033     10.663     0.0000      0.0291      0.0422
+ln_precio_pollo_piezas               0.0059     0.0008     7.2413     0.0000      0.0043      0.0074
+==============
+ Instruments  
+--------------
+z_pollo_piezas
+--------------
+
+Covariance Estimator:
+Heteroskedastic (Robust) Covariance (Debiased: False, GLS: True)
